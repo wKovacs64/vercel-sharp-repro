@@ -5,7 +5,7 @@ import { breakpoints } from './utils/breakpoints';
 
 export default async function IndexRoute() {
   return (
-    <div className="flex min-h-screen flex-col items-center bg-gray-300 p-4">
+    <div className="relative m-4 size-32 max-w-full lg:size-48">
       <Image
         className="rounded-full"
         src={defaultImage}
