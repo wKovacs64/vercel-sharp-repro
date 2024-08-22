@@ -1,0 +1,22 @@
+{
+  "extends": ["config:js-lib", ":semanticCommits", ":semanticCommitTypeAll(chore)"],
+  "commitMessageTopic": "{{depName}}",
+  "automergeType": "branch",
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackageNames": ["eslint"],
+      "matchUpdateTypes": ["major"]
+    },
+    {
+      "enabled": false,
+      "matchPackageNames": ["eslint-plugin-react-hooks"]
+    }
+  ],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0
+}
