@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Image from 'next/image';
 import defaultImage from '../public/static/images/default.jpg';
-import { breakpoints } from './utils/breakpoints';
 
 export default async function IndexRoute() {
   return (
@@ -11,7 +10,7 @@ export default async function IndexRoute() {
       alt="Avatar"
       width={192}
       height={192}
-      sizes={`(min-width: ${breakpoints.lg}) 192px, 128px`}
+      sizes={`(min-width: 1024px) 192px, 128px`}
     />
   );
 }
