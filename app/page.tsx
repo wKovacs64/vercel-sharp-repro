@@ -10,7 +10,6 @@ export default async function IndexRoute() {
       alt="Avatar"
       width={192}
       height={192}
-      sizes={`(min-width: 1024px) 192px, 128px`}
     />
   );
 }
