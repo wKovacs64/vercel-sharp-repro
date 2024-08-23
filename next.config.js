@@ -6,8 +6,8 @@ import withPlaiceholder from '@plaiceholder/next';
  */
 const nextConfig = {
   images: {
-    // deviceSizes: [500],
-    imageSizes: [128, 192, 331, 386, 480],
+    deviceSizes: [500],
+    imageSizes: [128, 192, 386, 480],
     formats: ['image/avif', 'image/webp'],
   },
   reactStrictMode: true,
