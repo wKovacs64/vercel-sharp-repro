@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Image from 'next/image';
-import defaultImage from '../public/static/images/default.jpg';
+import defaultImage from './assets/images/default.jpg';
 
 export default async function IndexRoute() {
   return (
